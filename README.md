@@ -185,5 +185,28 @@ nothing to commit, working tree clean
 
 ```
 O HARD reset apaga tudo que nao estiver no commit especificado, entao se tiver coisas importantes evite usar ele.
+# 5️⃣ Enviando e Baixando Alteracoes com o repositorio Remoto
 
+#### Conectar seu repositorio local com o repositorio remoto:
+
+    git remote add origin https://github.com/DanielAugustoFreire/git-testando.git
+
+#### Enviar para o repositorio remoto: GIT PUSH
+
+O comando git push é usado para enviar as alterações locais do seu repositório Git para um repositório remoto. Isso é útil quando você fez modificações em seu código local e deseja atualizar o repositório remoto com essas alterações. O formato básico do comando é o seguinte:
+
+Exemplo:
+
+    git push -u origin main
+
+## 🛑Para remover um repositório remoto 
+Em um ambiente Bash, você pode usar o comando git remote rm. Aqui está um exemplo de como você pode fazer isso:
+
+    git remote rm <nome_do_repositorio_remoto>
+
+Substitua <nome_do_repositorio_remoto> pelo nome do repositório remoto que você deseja remover. Se você não souber o nome do repositório remoto, pode usar o comando git remote -v para listar todos os repositórios remotos associados ao seu repositório local.
+
+Se voce tiver um repositorio chamado origin
+
+    git remote rm origin
 
