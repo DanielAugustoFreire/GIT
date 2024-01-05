@@ -209,8 +209,7 @@ Substitua <nome_do_repositorio_remoto> pelo nome do repositório remoto que voc�
 Se voce tiver um repositorio chamado origin
 
     git remote rm origin
-
-<<<<<<< HEAD
+    
 # 6️⃣Branch
 Um branch no Git é simplesmente um ponteiro móvel para um desses commits. O nome do branch padrão no Git é master. Conforme você começa a fazer commits, você recebe um branch master que aponta para o último commit que você fez. Cada vez que você faz um novo commit, ele avança automaticamente.
 
@@ -259,6 +258,3 @@ O git push é usado para enviar suas alterações locais para o repositório rem
 Antes de executar o git push, é importante garantir que seu repositório local esteja sincronizado com o repositório remoto. Use git pull para obter as alterações mais recentes antes de enviar suas próprias alterações.
 
 Ambos os comandos são fundamentais para facilitar o trabalho colaborativo em projetos Git, permitindo que diferentes desenvolvedores compartilhem e integrem suas alterações de forma eficiente.
-
-
->>>>>>> 599436e0c871d18aa4d8cde3ffdd485bfbc77a4f
