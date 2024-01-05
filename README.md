@@ -234,4 +234,31 @@ Um branch no Git é simplesmente um ponteiro móvel para um desses commits. O no
 #Listar com o nome do commit
     git branch -v
 =======
+# 7️⃣ Git Pull e Git Push
+
+O Git Pull e Git Push são comandos essenciais no Git, facilitando a colaboração eficiente em projetos versionados. 
+
+## Git Pull
+
+O `git pull` é utilizado para atualizar o repositório local com as alterações mais recentes do repositório remoto. Ele realiza duas operações principais:
+
+1. **`git fetch`**: Obtém as alterações do repositório remoto, incluindo novas branches ou alterações em branches existentes, mas não aplica essas alterações ao seu código local.
+
+2. **`git merge` ou `git rebase`**: Combina as alterações recuperadas do repositório remoto com o seu código local. Pode criar um commit de merge ou reescrever o histórico usando rebase, dependendo da configuração e do comando específico utilizado.
+
+Exemplo de uso:
+```bash
+git pull [repositório_remoto] [branch]
+```
+## Git Push
+
+O git push é usado para enviar suas alterações locais para o repositório remoto. Ele envia commits locais para uma branch específica no repositório remoto.
+
+    git push [repositório_remoto] [branch_local]
+
+Antes de executar o git push, é importante garantir que seu repositório local esteja sincronizado com o repositório remoto. Use git pull para obter as alterações mais recentes antes de enviar suas próprias alterações.
+
+Ambos os comandos são fundamentais para facilitar o trabalho colaborativo em projetos Git, permitindo que diferentes desenvolvedores compartilhem e integrem suas alterações de forma eficiente.
+
+
 >>>>>>> 599436e0c871d18aa4d8cde3ffdd485bfbc77a4f
