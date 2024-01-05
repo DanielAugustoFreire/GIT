@@ -210,6 +210,7 @@ Se voce tiver um repositorio chamado origin
 
     git remote rm origin
 
+<<<<<<< HEAD
 # 6️⃣Branch
 Um branch no Git é simplesmente um ponteiro móvel para um desses commits. O nome do branch padrão no Git é master. Conforme você começa a fazer commits, você recebe um branch master que aponta para o último commit que você fez. Cada vez que você faz um novo commit, ele avança automaticamente.
 
@@ -232,3 +233,5 @@ Um branch no Git é simplesmente um ponteiro móvel para um desses commits. O no
     git branch -a
 #Listar com o nome do commit
     git branch -v
+=======
+>>>>>>> 599436e0c871d18aa4d8cde3ffdd485bfbc77a4f
